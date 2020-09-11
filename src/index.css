@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.repo-list {
+    table-layout: fixed;
+}
+
+td > div {
+    padding: 2px;
+}
+
+.header li {
+    margin: 0px 5px 0px 0px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.repo-list .column-1 {
+    width: 100px;
+}
+
+.repo-list .column-2 {
+    width: 300px;
+}
+
+.repo-list .column-3 {
+    width: 80px;
+}
+
+td.column-3 {
+    text-align: center;
+}
+
+.repo-list {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.issue .column-1 {
+    padding-left: 30px;
+}
+
+.tags {
+    height: 100%;
+}
+
+.repo-list .column-2 > div {
+    width: 300px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
